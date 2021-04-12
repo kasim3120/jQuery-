@@ -31,18 +31,6 @@ $(document).ready(function() {
 
 //下拉選單
 
-// $('.dropdownBtn').click(function(event) {
-//   /* Act on the event */
-//   event.preventDefault();
-//   $('.dropdownBtn').toggleClass('active');
-//   $('.dropdownList').slideToggle();
-// });
-// $('.dropdownList').click(function(event) {
-//   /* Act on the event */
-//   event.preventDefault();
-//   $('.dropdownBtn').toggleClass('active');
-//   $('.dropdownList').slideToggle();
-// });
 
 // Dropdown
 $(".dropdownBtn").click(function (event) {
@@ -57,20 +45,6 @@ $("html:not(.dropdownBtn)").click(function () {
 
 
 //回到頂端
-//     $('.gotop').click(function(event) {
-//       event.preventDefault();
-//       $('html,body').animate({
-//         scrollTop: 0 }, 1000);
-//     function showBtnCondition() {
-//       if ($('.gotop').scrollTop() > 600) {
-//         $('gotop').fadeIn();
-//       } else {
-//         $('gotop').fadeOut();
-//       }
-//     }
-//     $(window).scroll(showBtnCondition);
-//     });     
-// });
 
 $(".jq-goTop").click(function (e) {
   e.preventDefault();
