@@ -60,7 +60,6 @@ table {
 *,*:before, *:after{
 	box-sizing: border-box;
 }
-
 img{
 	max-width: 100%;
 	height: auto;
@@ -70,7 +69,6 @@ img{
   width: 1000px;
   margin: 0 auto;
 }
-
 .header_top{
   display:flex;
   justify-content:flex-end;
@@ -99,7 +97,6 @@ img{
   justify-content: space-between;
   align-items:center; 
 }
-
 .header h1 a{
   background:url(https://github.com/kasim3120/html/blob/main/logo.png?raw=true) no-repeat #ffffff;
   height:60px;
@@ -141,7 +138,6 @@ img{
   background: #fff;
   display: block;
   z-index:10;
-  
 }
 .dropdownList ol a:hover{
   border-bottom: 5px  solid #00cc99;
@@ -249,7 +245,7 @@ img{
   display: flex;
   flex-direction: column;
   color:#ffffff;
-   padding:10px;
+  padding:10px;
 }
 .person label{
   color: #fff;
@@ -293,15 +289,15 @@ img{
   bottom: 50px;
 }
 .goTopBtn {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transform: translateX(0);
-    transition: transform 0.2s;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transform: translateX(0);
+  transition: transform 0.2s;
 }
 .fa-arrow-alt-circle-up {
-      color: green;
+  color: green;
 }
 .hide {
   transform: translateX(250%);
